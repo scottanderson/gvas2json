@@ -2,6 +2,7 @@ use anyhow::Result;
 use clap::{Parser, ValueEnum};
 use colored_json::{ColorMode, Output};
 use gvas::GvasFile;
+use minus::Pager;
 use std::fs::File;
 use std::io::{BufReader, BufWriter, Cursor, Read, Write};
 
@@ -23,6 +24,10 @@ struct Args {
     /// Enable colored output.
     #[clap(long, id = "COLOR", default_value = "auto")]
     color: WhenValues,
+
+    /// Disable pager.
+    #[clap(long, id = "NO_PAGER")]
+    no_pager: bool,
 }
 
 #[derive(ValueEnum, Clone, Debug)]
@@ -66,7 +71,18 @@ fn main() -> Result<()> {
 
     // Write to output
     match args.output {
-        None => to_writer(std::io::stdout(), json.as_bytes()),
+        None => {
+            if args.no_pager {
+                // Write directly to stdout
+                to_writer(std::io::stdout(), json.as_bytes())
+            } else {
+                // Set up the pager
+                let pager = Pager::new();
+                pager.push_str(json.as_str())?;
+                minus::page_all(pager)?;
+                Ok(())
+            }
+        }
         Some(output) => to_writer(File::create(output)?, json.as_bytes()),
     }
 }
