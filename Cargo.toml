@@ -1,0 +1,15 @@
+[package]
+name = "gvas2json"
+version = "0.1.0"
+edition = "2021"
+description = "Convert between JSON and GVAS"
+license = "MIT"
+repository = "https://github.com/scottanderson/gvas2json"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.2", features = ["derive"] }
+gvas = { version = "0", features = ["serde"] }
+serde = "1.0"
+serde-transcode = "1.1"
+serde_json = "1.0"
