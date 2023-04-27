@@ -235,20 +235,22 @@ dependencies = [
 
 [[package]]
 name = "gvas"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dd6087ae786392f95a156341c6126c626c7135658a98eada46dddc31ee32c68a"
+checksum = "ddfadab00dc58ccc0d566c6da2f84188fede8ff8aab22ad140269e4a2ca19266"
 dependencies = [
  "byteorder",
  "enum_dispatch",
  "indexmap",
  "ordered-float",
  "serde",
+ "thiserror",
+ "unreal_helpers",
 ]
 
 [[package]]
 name = "gvas2json"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "anyhow",
  "clap",
@@ -700,6 +702,16 @@ name = "unicode-width"
 version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b"
+
+[[package]]
+name = "unreal_helpers"
+version = "0.1.13"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f9dc7344668584f6ded815ddf7ae4e61dda7bf8dce76b72d23c044d5c89afa0a"
+dependencies = [
+ "byteorder",
+ "thiserror",
+]
 
 [[package]]
 name = "utf8parse"
