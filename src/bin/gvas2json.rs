@@ -3,6 +3,7 @@ use clap::{Parser, ValueEnum};
 use colored_json::{ColorMode, Output};
 use gvas::GvasFile;
 use minus::Pager;
+use std::collections::HashMap;
 use std::fs::File;
 use std::io::{BufReader, BufWriter, Cursor, Read, Write};
 
@@ -17,6 +18,10 @@ struct Args {
     #[clap(short, long, id = "OUTPUT_FILE")]
     output: Option<String>,
 
+    /// Type hints as key-value pairs.
+    #[clap(short = 't', long = "type")]
+    types: Vec<String>,
+
     /// Pretty-print JSON output.
     #[clap(short, long, id = "PRETTY", default_value_t = true)]
     pretty: bool,
@@ -28,6 +33,18 @@ struct Args {
     /// Disable pager.
     #[clap(long, id = "NO_PAGER")]
     no_pager: bool,
+}
+
+fn parse_types(args: Vec<String>) -> HashMap<String, String> {
+    let mut result = HashMap::<String, String>::new();
+    for arg in args {
+        let parts: Vec<&str> = arg.split('=').collect();
+        assert_eq!(parts.len(), 2, "Hint should be in the format key=value");
+        let k = String::from(parts[0]);
+        let v = String::from(parts[1]);
+        result.insert(k, v);
+    }
+    result
 }
 
 #[derive(ValueEnum, Clone, Debug)]
@@ -60,10 +77,13 @@ fn main() -> Result<()> {
         WhenValues::Never => ColorMode::Off,
     };
 
+    // Parse type hint arguments
+    let types = parse_types(args.types);
+
     // Read from input
     let gvas = match args.input {
-        None => from_reader(std::io::stdin()),
-        Some(input) => from_reader(File::open(input)?),
+        None => from_reader(std::io::stdin(), &types),
+        Some(input) => from_reader(File::open(input)?, &types),
     }?;
 
     // Transcode the data
@@ -99,14 +119,14 @@ fn format_json(gvas: &GvasFile, color_mode: ColorMode, pretty: bool) -> Result<S
     Ok(json)
 }
 
-fn from_reader<R: Read>(input: R) -> Result<GvasFile> {
+fn from_reader<R: Read>(input: R, types: &HashMap<String, String>) -> Result<GvasFile> {
     let mut input = BufReader::new(input);
     // WORKAROUND: GvasFile requires Seek attribute
     let mut buf = Vec::new();
     input.read_to_end(&mut buf)?;
     let mut input = Cursor::new(buf);
     // END WORKAROUND
-    Ok(GvasFile::read(&mut input)?)
+    Ok(GvasFile::read_with_hints(&mut input, types)?)
 }
 
 fn to_writer<W: Write>(writer: W, output: &[u8]) -> Result<()> {
