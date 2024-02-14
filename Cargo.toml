@@ -15,3 +15,7 @@ minus = { version = "5.3", features = ["static_output", "search"] }
 serde = "1.0"
 serde-transcode = "1.1"
 serde_json = { version = "1.0", features = ["float_roundtrip"] }
+
+[dev-dependencies]
+assert_cmd = "2.0.13"
+predicates = "3.1.0"
