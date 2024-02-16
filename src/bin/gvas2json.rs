@@ -131,5 +131,10 @@ fn from_reader<R: Read>(input: R, types: &HashMap<String, String>) -> Result<Gva
 
 fn to_writer<W: Write>(writer: W, output: &[u8]) -> Result<()> {
     let mut writer = BufWriter::new(writer);
-    Ok(writer.write_all(output)?)
+    writer.write_all(output)?;
+    const LINE_ENDING: &[u8] = "\n".as_bytes();
+    if !output.ends_with(LINE_ENDING) {
+        writer.write_all(LINE_ENDING)?;
+    }
+    Ok(())
 }
