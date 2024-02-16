@@ -1,1 +1,2 @@
 resources/test/*.json text eol=lf
+resources/test/*.yaml text eol=lf
