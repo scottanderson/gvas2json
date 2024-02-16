@@ -1,8 +1,8 @@
 use anyhow::Result;
 use assert_cmd::prelude::{CommandCargoExt, OutputAssertExt};
-use predicates::prelude::predicate;
-use predicates::prelude::predicate::str::contains;
 use std::{fs, path::PathBuf, process::Command};
+
+const NO_SUCH_FILE_OR_DIRECTORY: &str = "Error: No such file or directory (os error 2)\n";
 
 #[test]
 fn gvas2json_missing_file() {
@@ -11,9 +11,7 @@ fn gvas2json_missing_file() {
         .arg("test/file/doesnt/exist")
         .assert()
         .failure()
-        .stderr(predicate::str::contains(
-            "Error: No such file or directory (os error 2)",
-        ));
+        .stderr(NO_SUCH_FILE_OR_DIRECTORY);
 }
 
 #[test]
@@ -23,7 +21,7 @@ fn json2gvas_missing_file() {
         .arg("test/file/doesnt/exist")
         .assert()
         .failure()
-        .stderr(contains("Error: No such file or directory (os error 2)"));
+        .stderr(NO_SUCH_FILE_OR_DIRECTORY);
 }
 
 fn gvas2json(case: &str) -> Result<()> {
