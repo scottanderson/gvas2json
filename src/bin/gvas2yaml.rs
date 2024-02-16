@@ -52,13 +52,7 @@ fn main() -> Result<()> {
     }?;
 
     // Transcode the data
-    let yaml = {
-        let mut yaml = serde_yaml::to_string(&gvas)?;
-        while yaml.ends_with("\n\n") {
-            yaml.pop(); // Remove the last character from the string
-        }
-        yaml
-    };
+    let yaml = serde_yaml::to_string(&gvas)?;
 
     // Write to output
     match args.output {
