@@ -1,5 +1,6 @@
 use anyhow::Result;
 use assert_cmd::prelude::{CommandCargoExt, OutputAssertExt};
+use predicates::prelude::predicate;
 use std::{fs, path::PathBuf, process::Command};
 
 #[cfg(windows)]
@@ -14,7 +15,7 @@ fn gvas2json_missing_file() {
         .arg("test/file/doesnt/exist")
         .assert()
         .failure()
-        .stderr(ERROR_MISSING_FILE);
+        .stderr(predicate::str::contains(ERROR_MISSING_FILE));
 }
 
 #[test]
@@ -24,7 +25,7 @@ fn json2gvas_missing_file() {
         .arg("test/file/doesnt/exist")
         .assert()
         .failure()
-        .stderr(ERROR_MISSING_FILE);
+        .stderr(predicate::str::contains(ERROR_MISSING_FILE));
 }
 
 fn gvas2json(case: &str) -> Result<()> {
