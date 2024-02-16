@@ -33,7 +33,7 @@ fn gvas2json(case: &str) -> Result<()> {
         .arg(&format!("resources/test/{case}.sav"))
         .assert()
         .success()
-        .stdout(predicate::str::contains(fs::read_to_string(
+        .stdout(fs::read_to_string(
             [
                 env!("CARGO_MANIFEST_DIR"),
                 "resources",
@@ -42,15 +42,13 @@ fn gvas2json(case: &str) -> Result<()> {
             ]
             .iter()
             .collect::<PathBuf>(),
-        )?));
+        )?);
     Ok(())
 }
 
 fn json2gvas(case: &str) -> Result<()> {
-    let ext = "json";
-    let expect_ext = "sav";
     Command::cargo_bin("json2gvas")?
-        .arg(&format!("resources/test/{case}.{ext}"))
+        .arg(&format!("resources/test/{case}.json"))
         .assert()
         .success()
         .stdout(fs::read(
@@ -58,7 +56,7 @@ fn json2gvas(case: &str) -> Result<()> {
                 env!("CARGO_MANIFEST_DIR"),
                 "resources",
                 "test",
-                &format!("{case}.{expect_ext}"),
+                &format!("{case}.sav"),
             ]
             .iter()
             .collect::<PathBuf>(),
