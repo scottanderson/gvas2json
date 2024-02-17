@@ -40,11 +40,6 @@ fn yaml2gvas_missing_file() {
 fn bin(cmd: &str, case: &str, ext: &str, expect_ext: &str) -> Result<()> {
     Command::cargo_bin(cmd)?
         .arg(&format!("resources/test/{case}.{ext}"))
-        .arg(if cmd.starts_with("gvas2") {
-            "--no-pager"
-        } else {
-            "--"
-        })
         .assert()
         .success()
         .stdout(fs::read(

@@ -2,6 +2,7 @@ use anyhow::Result;
 use clap::{Parser, ValueEnum};
 use colored_json::{ColorMode, Output};
 use gvas::GvasFile;
+use is_terminal::IsTerminal;
 use minus::Pager;
 use std::collections::HashMap;
 use std::fs::File;
@@ -92,7 +93,7 @@ fn main() -> Result<()> {
     // Write to output
     match args.output {
         None => {
-            if args.no_pager {
+            if args.no_pager || !std::io::stdout().is_terminal() {
                 // Write directly to stdout
                 to_writer(std::io::stdout(), json.as_bytes())
             } else {

@@ -11,6 +11,7 @@ anyhow = "1.0"
 clap = { version = "4.5", features = ["derive"] }
 colored_json = "4.1"
 gvas = { version = "0", features = ["serde"] }
+is-terminal = "0.4"
 minus = { version = "5.3", features = ["static_output", "search"] }
 serde = "1.0"
 serde-transcode = "1.1"

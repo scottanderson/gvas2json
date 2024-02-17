@@ -1,6 +1,7 @@
 use anyhow::Result;
 use clap::Parser;
 use gvas::GvasFile;
+use is_terminal::IsTerminal;
 use minus::Pager;
 use std::collections::HashMap;
 use std::fs::File;
@@ -57,7 +58,7 @@ fn main() -> Result<()> {
     // Write to output
     match args.output {
         None => {
-            if args.no_pager {
+            if args.no_pager || !std::io::stdout().is_terminal() {
                 // Write directly to stdout
                 to_writer(std::io::stdout(), yaml.as_bytes())
             } else {
