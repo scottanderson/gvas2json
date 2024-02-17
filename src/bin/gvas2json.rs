@@ -2,11 +2,10 @@ use anyhow::Result;
 use clap::{Parser, ValueEnum};
 use colored_json::{ColorMode, Output};
 use gvas::GvasFile;
-use is_terminal::IsTerminal;
 use minus::Pager;
 use std::collections::HashMap;
 use std::fs::File;
-use std::io::{BufReader, BufWriter, Cursor, Read, Write};
+use std::io::{BufReader, BufWriter, Cursor, IsTerminal, Read, Write};
 
 #[derive(Parser, Debug)]
 #[clap(author, version, about, long_about=None)]
