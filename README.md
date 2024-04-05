@@ -51,3 +51,11 @@ gvas2yaml --help
 json2gvas --help
 yaml2gvas --help
 ```
+
+## Development
+
+### Build with locally-modified gvas library
+
+```sh
+cargo add --path ../gvas
+```
