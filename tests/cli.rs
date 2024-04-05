@@ -90,3 +90,23 @@ fn json2gvas_sample1() {
 fn yaml2gvas_sample1() {
     yaml2gvas("sample1").expect("yaml2gvas(sample1)");
 }
+
+#[test]
+fn gvas2json_sample2() {
+    gvas2json("sample2").expect("gvas2json(sample2)");
+}
+
+#[test]
+fn gvas2yaml_sample2() {
+    gvas2yaml("sample2").expect("gvas2yaml(sample2)");
+}
+
+#[test]
+fn json2gvas_sample2() {
+    json2gvas("sample2").expect("json2gvas(sample2)");
+}
+
+#[test]
+fn yaml2gvas_sample2() {
+    yaml2gvas("sample2").expect("yaml2gvas(sample2)");
+}

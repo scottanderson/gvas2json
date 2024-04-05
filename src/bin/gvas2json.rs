@@ -1,6 +1,7 @@
 use anyhow::Result;
 use clap::{Parser, ValueEnum};
 use colored_json::{ColorMode, Output};
+use gvas::game_version::GameVersion;
 use gvas::GvasFile;
 use minus::Pager;
 use std::collections::HashMap;
@@ -33,6 +34,10 @@ struct Args {
     /// Disable pager.
     #[clap(long, id = "NO_PAGER")]
     no_pager: bool,
+
+    /// Enable palworld compressed format.
+    #[clap(long, id = "PALWORLD")]
+    palworld: bool,
 }
 
 fn parse_types(args: Vec<String>) -> HashMap<String, String> {
@@ -80,10 +85,16 @@ fn main() -> Result<()> {
     // Parse type hint arguments
     let types = parse_types(args.types);
 
+    // Determine GameVersion from arguments
+    let game_version = match args.palworld {
+        true => GameVersion::Palworld,
+        _ => GameVersion::Default,
+    };
+
     // Read from input
     let gvas = match args.input {
-        None => from_reader(std::io::stdin(), &types),
-        Some(input) => from_reader(File::open(input)?, &types),
+        None => from_reader(std::io::stdin(), game_version, &types),
+        Some(input) => from_reader(File::open(input)?, game_version, &types),
     }?;
 
     // Transcode the data
@@ -119,14 +130,18 @@ fn format_json(gvas: &GvasFile, color_mode: ColorMode, pretty: bool) -> Result<S
     Ok(json)
 }
 
-fn from_reader<R: Read>(input: R, types: &HashMap<String, String>) -> Result<GvasFile> {
+fn from_reader<R: Read>(
+    input: R,
+    game_version: GameVersion,
+    types: &HashMap<String, String>,
+) -> Result<GvasFile> {
     let mut input = BufReader::new(input);
     // WORKAROUND: GvasFile requires Seek attribute
     let mut buf = Vec::new();
     input.read_to_end(&mut buf)?;
     let mut input = Cursor::new(buf);
     // END WORKAROUND
-    Ok(GvasFile::read_with_hints(&mut input, types)?)
+    Ok(GvasFile::read_with_hints(&mut input, game_version, types)?)
 }
 
 fn to_writer<W: Write>(writer: W, output: &[u8]) -> Result<()> {
