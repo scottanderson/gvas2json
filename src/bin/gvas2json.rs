@@ -1,3 +1,5 @@
+#![warn(clippy::expect_used, clippy::panic, clippy::unwrap_used)]
+
 use anyhow::Result;
 use clap::{Parser, ValueEnum};
 use colored_json::{ColorMode, Output};
