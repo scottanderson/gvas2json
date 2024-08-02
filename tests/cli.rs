@@ -39,7 +39,7 @@ fn yaml2gvas_missing_file() {
 
 fn bin(cmd: &str, case: &str, ext: &str, expect_ext: &str) -> Result<()> {
     Command::cargo_bin(cmd)?
-        .arg(&format!("resources/test/{case}.{ext}"))
+        .arg(format!("resources/test/{case}.{ext}"))
         .assert()
         .success()
         .stdout(fs::read(
