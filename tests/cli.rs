@@ -23,6 +23,11 @@ fn gvas2json_missing_file() {
 }
 
 #[test]
+fn gvas2toml_missing_file() {
+    missing_file("gvas2toml")
+}
+
+#[test]
 fn gvas2yaml_missing_file() {
     missing_file("gvas2yaml")
 }
@@ -30,6 +35,11 @@ fn gvas2yaml_missing_file() {
 #[test]
 fn json2gvas_missing_file() {
     missing_file("json2gvas")
+}
+
+#[test]
+fn toml2gvas_missing_file() {
+    missing_file("toml2gvas")
 }
 
 #[test]
@@ -59,12 +69,20 @@ fn gvas2json(case: &str) -> Result<()> {
     bin("gvas2json", case, "sav", "json")
 }
 
+fn gvas2toml(case: &str) -> Result<()> {
+    bin("gvas2toml", case, "sav", "toml")
+}
+
 fn gvas2yaml(case: &str) -> Result<()> {
     bin("gvas2yaml", case, "sav", "yaml")
 }
 
 fn json2gvas(case: &str) -> Result<()> {
     bin("json2gvas", case, "json", "sav")
+}
+
+fn toml2gvas(case: &str) -> Result<()> {
+    bin("toml2gvas", case, "toml", "sav")
 }
 
 fn yaml2gvas(case: &str) -> Result<()> {
@@ -74,6 +92,11 @@ fn yaml2gvas(case: &str) -> Result<()> {
 #[test]
 fn gvas2json_sample1() {
     gvas2json("sample1").expect("gvas2json(sample1)");
+}
+
+#[test]
+fn gvas2toml_sample1() {
+    gvas2toml("sample1").expect("gvas2toml(sample1)");
 }
 
 #[test]
@@ -87,6 +110,11 @@ fn json2gvas_sample1() {
 }
 
 #[test]
+fn toml2gvas_sample1() {
+    toml2gvas("sample1").expect("toml2gvas(sample1)");
+}
+
+#[test]
 fn yaml2gvas_sample1() {
     yaml2gvas("sample1").expect("yaml2gvas(sample1)");
 }
@@ -97,6 +125,11 @@ fn gvas2json_sample2() {
 }
 
 #[test]
+fn gvas2toml_sample2() {
+    gvas2toml("sample2").expect("gvas2toml(sample2)");
+}
+
+#[test]
 fn gvas2yaml_sample2() {
     gvas2yaml("sample2").expect("gvas2yaml(sample2)");
 }
@@ -104,6 +137,11 @@ fn gvas2yaml_sample2() {
 #[test]
 fn json2gvas_sample2() {
     json2gvas("sample2").expect("json2gvas(sample2)");
+}
+
+#[test]
+fn toml2gvas_sample2() {
+    toml2gvas("sample2").expect("toml2gvas(sample2)");
 }
 
 #[test]

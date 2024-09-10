@@ -15,6 +15,7 @@ minus = { version = "5.6", features = ["static_output", "search"] }
 serde = "1.0"
 serde_json = { version = "1.0", features = ["float_roundtrip"] }
 serde_yaml = "0.8"
+toml = "0.8"
 
 [dev-dependencies]
 assert_cmd = "2.0"
