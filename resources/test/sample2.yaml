@@ -2,7 +2,7 @@
 header:
   type: Version3
   package_file_version: 522
-  unknown: 1004
+  package_file_version_ue5: 1004
   engine_version:
     major: 5
     minor: 0
@@ -64221,2730 +64221,2860 @@ properties:
     type_name: Transform
     structs:
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9839715180930192
                   w: 0.17832568962917048
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82470.2913160529
                   y: -40947.519373461946
                   z: 14484.18519226997
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9186378399324423
                   w: 0.39510064419620516
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -81404.89146724931
                   y: -41998.7480085508
                   z: 14485.431284135768
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9186378399324423
                   w: 0.39510064419620516
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -81555.71488094193
                   y: -41842.57484163325
                   z: 14485.431279639315
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9983695783152728
                   w: 0.05708051414085469
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82679.01116424633
                   y: -40896.83449471317
                   z: 14484.875645783932
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9186378399324423
                   w: 0.39510064419620516
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -81706.03835598486
                   y: -41685.90470444452
                   z: 14485.431291356146
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.22607851918100536
                   w: 0.9741090817587752
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -79596.67989722891
                   y: -42450.51287323567
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9186378399324423
                   w: 0.39510064419620516
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -81855.73752255415
                   y: -41528.60319585148
                   z: 14485.431307683151
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9983695783152728
                   w: 0.05708051414085469
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82886.17809097469
                   y: -40874.102421203366
                   z: 14484.875657711915
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9186378399324423
                   w: 0.39510064419620516
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82005.06973936345
                   y: -41372.87589855212
                   z: 14485.431292093535
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.8492907683481343
                   w: 0.5279253647994531
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -79715.43515955884
                   y: -43945.87838732518
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9186378399324423
                   w: 0.39510064419620516
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82154.02255117169
                   y: -41217.52244867439
                   z: 14485.43133171903
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9983695783152728
                   w: 0.05708051414085469
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -83102.83510885242
                   y: -40850.45500607739
                   z: 14484.87566765535
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9186378399324423
                   w: 0.39510064419620516
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82302.90972363847
                   y: -41061.19512829395
                   z: 14485.431316152893
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.000017785644190738225
                   y: -4.230074085027728e-6
                   z: 0.9728629183929808
                   w: 0.23138224150022776
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -80131.44936659513
                   y: -42179.37222124893
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9983695783152728
                   w: 0.05708051414085469
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -83318.88968714947
                   y: -40826.205074474536
                   z: 14484.875622396354
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5269097797789539
                   w: 0.8499212222160911
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77132.32414205991
                   y: -43927.983472298256
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9983695783152728
                   w: 0.05708051414085469
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -83534.27905197343
                   y: -40801.7175976589
                   z: 14484.875638253201
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: -0.0
                   z: -0.2754438786324816
                   w: 0.9613171535575005
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -85499.50170993005
                   y: 157365.9124270437
                   z: 9992.92937457084
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9983695783152728
                   w: 0.05708051414085469
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -83747.85147055057
                   y: -40778.912932859304
                   z: 14484.87563771746
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5276674954864964
                   w: 0.8494510075378146
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -78569.33516782986
                   y: -43737.207500278506
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.7463159175796998
                   w: 0.6655918803344666
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -83864.4373660824
                   y: -40877.319994465266
                   z: 14484.875616271243
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5224977699643875
                   w: 0.8526406513779659
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -78008.18504229092
                   y: -39691.36783517857
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.8014861148917363
                   w: 0.5980133841610492
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -81360.71232535371
                   y: -42172.120446158726
                   z: 14486.291655676103
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5260152468380486
                   w: 0.8504751378458436
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77172.82851232782
                   y: -43904.680378636236
                   z: 13691.02656048694
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.539597488830552
                   w: 0.8419231259727709
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -79643.96320599207
                   y: -42920.731012115146
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.9536304819952999
                   w: 0.30097990598944013
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103152.42911538837
                   y: -130171.35268219856
                   z: 16086.575854888608
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9292131172350493
                   w: 0.36954429065853833
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -78123.85924996792
                   y: -45699.137869235776
                   z: 13643.641535225204
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9717827328243924
                   w: 0.2358777653454342
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77571.72246317654
                   y: -39425.266072932456
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.9986689358024438
                   w: 0.05157864541857119
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -87044.21729821464
                   y: 155662.65898112158
                   z: 9992.92937457084
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5221011323163676
                   w: 0.8528835838694322
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77497.20764063283
                   y: -39615.66104796727
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5268770721443033
                   w: 0.8499414984860114
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77275.9409470202
                   y: -44087.02836001332
                   z: 13691.026557797562
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.8527192612342187
                   w: 0.5223694684035125
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -76962.30486284077
                   y: -40224.98789681302
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.539597488830552
                   w: 0.8419231259727709
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -79683.64642143366
                   y: -42831.87263675923
                   z: 13646.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.30302206217691147
                   w: 0.9529835412188671
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82900.04265287836
                   y: 157440.3440158994
                   z: 9990.292224533476
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9614322554097934
                   w: 0.275041848193394
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -85205.5231006839
                   y: 158646.85105258785
                   z: 9991.422473499162
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.886902102151184
                   w: 0.4619574235790679
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103998.03273547866
                   y: -130209.88385108142
                   z: 16085.075739532796
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.27504184819339617
                   w: 0.9614322554097927
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -85109.78252544304
                   y: 157484.4942226096
                   z: 9992.92937457084
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.6854951332298845
                   w: 0.7280772090363377
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -85613.43943050446
                   y: 156145.4554315933
                   z: 9993.70422293431
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9566285264152794
                   w: 0.2913105944666816
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82557.32097181071
                   y: 158846.94485854518
                   z: 9985.568315117876
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9741208511712223
                   w: 0.22602780208074758
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -78428.70795173595
                   y: -39625.05456158677
                   z: 13775.640910732223
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.4614936480390518
                   w: 0.8871435130910936
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102838.56960903513
                   y: -129398.94722952205
                   z: 16082.642886434729
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30044367027709495
                   w: 0.9537995601752123
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -104155.18304721231
                   y: -130486.29246718189
                   z: 16215.075739532796
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9530484825419915
                   w: 0.3028177503456616
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -83581.07483030381
                   y: 156477.3140767133
                   z: 9992.330307712695
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.88688389351015
                   w: 0.461992380275126
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103096.72002282932
                   y: -130484.66298901557
                   z: 16216.575854888608
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30044367027709495
                   w: 0.9537995601752123
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103977.60610406213
                   y: -130361.94575603974
                   z: 16215.075739532796
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.8851019393800955
                   w: 0.465397203371049
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -104071.34882841547
                   y: -130857.71283816459
                   z: 16091.483525125912
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30044367027709495
                   w: 0.9537995601752123
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103800.7127110843
                   y: -130237.17221254917
                   z: 16215.075739532796
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30044367027709495
                   w: 0.9537995601752123
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103624.81887655043
                   y: -130113.5920482353
                   z: 16215.075739532796
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30042341273736883
                   w: 0.953805940995983
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102846.67392988133
                   y: -130093.14577715428
                   z: 16086.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30044367027709495
                   w: 0.9537995601752123
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103533.36219442013
                   y: -130050.86024765263
                   z: 16215.075739532796
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.46298055442299846
                   w: 0.8863684370656327
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102686.04045800747
                   y: -130557.03111179188
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30042341273736883
                   w: 0.953805940995983
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102609.71984020158
                   y: -129926.68097193046
                   z: 16084.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30044367027709495
                   w: 0.9537995601752123
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102527.27036431925
                   y: -129340.81715523475
                   z: 16212.642886434729
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.21888189279729536
                   w: 0.9757513602375728
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -78012.19853648158
                   y: -39534.607687749805
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.2993804428888226
                   w: 0.9541338220688398
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102370.99830960351
                   y: -130463.58671716282
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.46298055442299846
                   w: 0.8863684370656327
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102736.269034267
                   y: -130487.22870968896
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.2993804428888226
                   w: 0.9541338220688398
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102541.1364863266
                   y: -130582.12526526334
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102615.97290439547
                   y: -130561.33601192466
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.2993804428888226
                   w: 0.9541338220688398
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102251.23612188628
                   y: -130379.0931169664
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.88688389351015
                   w: 0.461992380275126
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103387.09871181572
                   y: -130075.7047787133
                   z: 16216.575854888608
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.88688389351015
                   w: 0.461992380275126
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103266.49844575385
                   y: -130246.74447014555
                   z: 16216.575854888608
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.8863684370656354
                   w: 0.46298055442299363
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102227.85423260395
                   y: -130233.85117220778
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.88688389351015
                   w: 0.461992380275126
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103145.76914735066
                   y: -130417.50635050898
                   z: 16216.575854888608
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.948763593697617
                   w: 0.31598677705559636
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102659.55878637283
                   y: -129437.53709607956
                   z: 16212.642886434729
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.8855538658739882
                   w: 0.464536705369591
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103995.16625851575
                   y: -131069.41205312056
                   z: 16135.84398842647
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.8843469587183512
                   w: 0.46683022246380157
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102915.98055600154
                   y: -129794.77889948731
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30019650633448297
                   w: 0.9538773807909331
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102780.18196059343
                   y: -129767.830802807
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102548.4222607132
                   y: -130503.68917002509
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.9993449690439843
                   w: 0.03618884975345856
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -107244.28732947576
                   y: -114638.26598403354
                   z: 12195.109256981003
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102474.12243552798
                   y: -130451.8054009501
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102403.92090923332
                   y: -130406.8249085657
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102336.2487696749
                   y: -130347.62743408089
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.885665460911323
                   w: 0.4643239077936151
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -83706.01350573885
                   y: 156069.9196919361
                   z: 10115.153476169893
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102272.01196655797
                   y: -130291.98719164047
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102330.75630784378
                   y: -130218.16563632627
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102409.13391175722
                   y: -130269.44495364232
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.23451989582209265
                   w: 0.9721113199956037
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -76661.90499743541
                   y: -40526.966919177044
                   z: 13775.33082632078
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102480.52128262335
                   y: -130320.36704053027
                   z: 16214.894430733177
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30019650633448297
                   w: 0.9538773807909331
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102924.06873588554
                   y: -129856.67851120819
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102553.13657146701
                   y: -130367.54780007436
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.3493194283584207
                   w: 0.9370037016849753
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -100159.1603689153
                   y: -129894.16028500987
                   z: 16084.190736987362
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102627.652345734
                   y: -130415.02685065614
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102676.12737164175
                   y: -130484.27346813092
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30616036178984485
                   w: 0.9519799540267176
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103151.08340322741
                   y: -130771.01396605727
                   z: 16089.558260126007
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102616.85001958994
                   y: -130558.1368308506
                   z: 16313.525861300175
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.30019650633448297
                   w: 0.9538773807909331
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -103066.35500453757
                   y: -129948.78393688661
                   z: 16216.582227266972
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102552.52583714398
                   y: -130501.67669765893
                   z: 16313.724393404667
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.8855538658739881
                   w: 0.4645367053695912
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -104090.78909704245
                   y: -130931.25290183575
                   z: 16135.843989832194
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102477.82503794326
                   y: -130450.70687516769
                   z: 16313.724393404667
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102402.05175546951
                   y: -130407.5011006324
                   z: 16311.83806476638
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.4915983993467764
                   w: 0.8708220333453254
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -100979.29103670643
                   y: -130628.34055083348
                   z: 16082.603391794462
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102340.76960966509
                   y: -130344.93767230852
                   z: 16312.036596870872
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.09768649707280454
                   w: 0.9952172367325862
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102057.76670378284
                   y: -131536.82105021333
                   z: 16082.642886434729
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102272.63835377179
                   y: -130293.58099753158
                   z: 16312.036596870872
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102329.53896493155
                   y: -130218.97219385716
                   z: 16311.83806476638
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.3318800546212655
                   w: 0.9433215938080639
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102582.65878099928
                   y: -129058.82096053113
                   z: 16207.9624872643
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.297472053835996
                   w: 0.9547305259530536
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -102407.71566909066
                   y: -130270.35675240854
                   z: 16311.83806476638
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.4643239077936184
                   w: 0.8856654609113213
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -82557.77826640732
                   y: 157694.0560874
                   z: 10113.572162950766
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.24946226296674606
                   w: 0.9683845204026706
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -99247.17858843511
                   y: -129488.14213569358
                   z: 16081.675090754494
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.9982066936189109
                   w: 0.05986148022227468
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -87974.1102851451
                   y: 155528.9308860069
                   z: 9992.92937457084
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5157031202727613
                   w: 0.8567673498336276
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -76966.01075556742
                   y: -39851.43929414889
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5157031202727613
                   w: 0.8567673498336276
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77010.13479915
                   y: -39934.732070546655
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9727366979474926
                   w: 0.2319123033955048
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77741.95841534484
                   y: -39400.12587756573
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.8539449276270088
                   w: 0.5203633928132365
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77869.83423996175
                   y: -39486.20304685676
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.2273884873282091
                   w: 0.9738041260081973
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -78200.67502762422
                   y: -39444.46940989056
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9717827328243924
                   w: 0.2358777653454342
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77689.11479405087
                   y: -39363.489467269195
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.8539449276270088
                   w: 0.5203633928132365
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77829.94573021225
                   y: -39409.03116481751
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.2273884873282091
                   w: 0.9738041260081973
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -76965.97854528771
                   y: -40071.99289215488
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.2273884873282091
                   w: 0.9738041260081973
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -76779.02643747865
                   y: -40161.99843150997
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.6348610993584803
                   w: 0.772626290337924
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77744.93496242141
                   y: -39409.90556004269
                   z: 13838.416094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.24434908035760686
                   w: 0.9696873346230691
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -76643.22253304813
                   y: -40230.96052605964
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5014798108943597
                   w: 0.8651693471600558
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77548.35873996897
                   y: -39496.26133307447
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5014798108943597
                   w: 0.8651693471600558
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77583.87440583251
                   y: -39575.109825064246
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5014798108943597
                   w: 0.8651693471600558
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77621.10024513236
                   y: -39651.189760862486
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5215386569397099
                   w: 0.853227653863565
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77633.55851366294
                   y: -39454.013764874195
                   z: 13776.666094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5215386569397099
                   w: 0.853227653863565
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: -77634.53434998138
                   y: -39453.570353356525
                   z: 13865.916094453347
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9796648542134633
                   w: 0.20064090664396927
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 51809.938964022214
                   y: -104472.4136743835
                   z: 10000.561121838635
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9873286965558858
                   w: 0.15868851551783816
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 54399.36787531855
                   y: -98384.63641886172
                   z: 9999.980330167087
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9781028389402531
                   w: 0.2081221671447271
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 52828.59692107619
                   y: -107807.52195311943
                   z: 9999.962198157473
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.5905347032000787
                   w: 0.8070122454562849
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 53536.71799423454
                   y: -106321.00981595999
                   z: 9999.962198157473
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: -0.41652229221977105
                   w: 0.909125502933444
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 54262.11009922385
                   y: -104842.36525147388
                   z: 9999.962198157473
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5064544534800665
                   w: 0.862266714277089
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 55715.958585372275
                   y: -101880.87056577737
                   z: 9999.980330167087
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5722905348030055
                   w: 0.8200509397439223
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 56437.74885563055
                   y: -100396.51619738016
                   z: 9999.980330167087
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.2541968799883267
                   w: 0.9671524937693128
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 54985.3673747053
                   y: -103364.62192722876
                   z: 9999.962198157473
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5201043951710111
                   w: 0.8541026976446078
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 57161.10664734824
                   y: -98912.69676532058
                   z: 10001.00696101049
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5499798572499026
                   w: 0.8351779191402133
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 52498.93343036819
                   y: -102974.99184745988
                   z: 10000.121771877588
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5623966202614445
                   w: 0.8268676082170014
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 53117.42724846577
                   y: -101432.90885635135
                   z: 10000.006746580038
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.4314733654262185
                   w: 0.9021256757945495
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 56114.148149790846
                   y: -95566.59058051735
                   z: 9999.714838456703
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.5587394356969078
                   w: 0.829343260054063
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 53704.0289585631
                   y: -99885.76008596508
                   z: 10000.851042184871
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
                   y: 1.0
                   z: 1.0
       - CustomStruct:
-          - Transform
-          - - - Rotation
+          type_name: Transform
+          properties:
+            Rotation:
               - type: StructProperty
                 QuatD:
                   x: 0.0
                   y: 0.0
                   z: 0.9628801666893383
                   w: 0.26992922145687076
-            - - Translation
+            Translation:
               - type: StructProperty
                 VectorD:
                   x: 55203.544365871225
                   y: -96946.03608080425
                   z: 9999.980330167087
-            - - Scale3D
+            Scale3D:
               - type: StructProperty
                 VectorD:
                   x: 1.0
