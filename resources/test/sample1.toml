@@ -60,4 +60,5 @@ F37ABB24-834F-4656-C22D-2F1FFF96AD49 = 4
 
 [properties.Thing]
 type = "StructProperty"
+type_name = "Guid"
 Guid = "D49982B3-DF3D-D549-B4AE-57C71D5838E4"
